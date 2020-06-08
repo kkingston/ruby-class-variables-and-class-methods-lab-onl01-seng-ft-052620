@@ -45,4 +45,5 @@ class Song
     new_hash = {}
     @@genres.each {|genre| new_hash[genre] += 1}
   end
+  new_hash
 end
