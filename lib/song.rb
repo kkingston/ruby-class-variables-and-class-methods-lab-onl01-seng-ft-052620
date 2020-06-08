@@ -28,4 +28,8 @@ class Song
   def genre
     @genre
   end
+  
+  def self.count
+    @@count
+  end 
 end
