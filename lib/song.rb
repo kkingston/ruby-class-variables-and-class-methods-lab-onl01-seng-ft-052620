@@ -41,15 +41,15 @@ class Song
     @@genres.uniq
   end
     
-  def self.genre_count 
-    new_hash = {}
-    @@genres.each {|genre| 
-    if new_hash.keys.include?(genre) 
-      new_hash[genre] += 1
-    else 
-      new_hash[genre] = 1
-    }
-  new_hash
-  end
+  # def self.genre_count 
+  #   new_hash = {}
+  #   @@genres.each {|genre| 
+  #   if new_hash.keys.include?(genre) 
+  #     new_hash[genre] += 1
+  #   else 
+  #     new_hash[genre] = 1
+  #   }
+  # new_hash
+  # end
   
 end
